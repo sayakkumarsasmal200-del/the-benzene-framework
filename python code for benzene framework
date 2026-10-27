@@ -5,14 +5,13 @@ pen = turtle.Turtle()
 
 for heading,distance in [(150, 60), (90, 80), (30, 60), (-30, 60), (-90, 80)]:
     pen.setheading(heading)
-    pen.forward(distance) #heading means pointer head dr's....
-pen.goto(0,0) #goto=set-position
+    pen.forward(distance) 
+pen.goto(0,0) 
 pen.penup()
-pen.setheading(90) #set-heading is only for setting pointer head dr's
+pen.setheading(90) 
 pen.forward(70)
 pen.right(90)
 pen.forward(40)
 pen.setheading(90)
 pen.pendown()
 pen.circle(40)
-pen.setposition(30,30)
